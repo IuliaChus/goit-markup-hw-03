@@ -30,14 +30,15 @@
     left: 0px;
     top: 0px;
     }
-
  .header-logo{
     color: var(--accent-color);
     position: absolute;
     width: 145px;
     height: 31px;
     left: 215px;
+    right: 93px;
     top: 24px;
+    bottom: 25px;
     font-family: Raleway;
     font-style: normal;
     font-weight: 700;
@@ -53,8 +54,9 @@
     font-size: 26px;
     line-height: 1.19;  
     letter-spacing: 0.03em;
+    top: 24px;
+    bottom: 25px;
  }
-
 
 .link-studio{
     color: var(--accent-color);
@@ -170,7 +172,9 @@ letter-spacing: 0.02em;
     width: 1600px;
     height: 600px;
     left: 0px;
-    top: 80px;  
+    top: 80px; 
+
+    
  }
 
 .hero-titel{
@@ -187,18 +191,20 @@ letter-spacing: 0.02em;
     width: 696px;
     height: 120px;
     left: 452px;
-    top: 280px;
+    top: 200px;
+    
+    padding-bottom: 270px; 
 
 }
 
 .hero-button{
     background-color: var(--accent-color);
     position: absolute;
-    width: 200px;
+    min-width: 200px;
     height: 50px;
     left: 700px;
     top: 430px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
     border-radius: 4px;
  }
    
@@ -207,13 +213,23 @@ letter-spacing: 0.02em;
     font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    width: 136px;
+    height: 30px;
+    padding: 10px 32px;
+   text-decoration: none;
+    display: inline-block;
+    
+    text
     letter-spacing: 0.06em;
  }
 
+ .text{
+ 
+    width: 1170px;
+    height: 101px;
+    left: 215px;
+    top: 774px; 
+ }
 .text-one{
     position: absolute;
     width: 270px;
@@ -221,7 +237,7 @@ letter-spacing: 0.02em;
     left: 215px;
     top: 774px;
 }
-.aatention-to-detail{
+.atention-to-detail{
     color: var(--titel-text-color);
     position: absolute;
     width: 270px;
@@ -232,7 +248,7 @@ letter-spacing: 0.02em;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.4;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -364,16 +380,22 @@ top: 800px;
     top: 969px;
 
 }
- .about-us-titel{
-     color: var(--titel-text-color);
+.about-us-titel{
+    position: absolute;
+    width: 376px;
+    height: 42px;
+    left: 612px;
+    top: 969px;
+    color: var(--titel-text-color);
+   
     font-family: Roboto;
-    
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
- }
+    
+}
 
 .picture-one{
     position: absolute;
@@ -397,9 +419,7 @@ top: 1061px;
     height: 294px;
     left: 1015px;
     top: 1061px;
-    }
-
-
+}
 
 .our-team-section{
     position: absolute;
@@ -408,6 +428,8 @@ top: 1061px;
     left: 0px;
     top: 1449px;
     background: #F5F4FA;
+    
+  
  }
  .our-team-titel{
    
@@ -425,6 +447,7 @@ width: 1170px;
 height: 368px;
 left: 215px;
 top: 1635px;
+
  }
 
 .portrait-one{ 
@@ -585,24 +608,7 @@ top: 1635px;
 }
 
 
- .our-team-name{
-
-    color: var(--titel-text-color)
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
- }
-
-
- .our-team-text{
-
-    color: var(--primery-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
- }
+ 
 
 
  .footer-bg{
@@ -638,6 +644,10 @@ top: 2097px;
     letter-spacing: 0.03em;
 }
 .adress{
+    padding-top: 111;
+    padding-left: 215;
+    padding-bottom: 60;
+    padding-right: 1154;
     width: 231px;
     height: 81px;
     left: 215px;
