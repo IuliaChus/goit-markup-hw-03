@@ -23,20 +23,12 @@ list-style: none;
 .header{
    background-color: #ffffff;
    font-family: Roboto;
-   position: absolute;
-   width: 1600px;
-   height: 80px;
-   left: 0px;
-   top: 0px;
+   
    }
 
 .header-logo{
    color: var(--accent-color);
-   position: absolute;
-   width: 145px;
-   height: 31px;
-   left: 215px;
-   top: 24px;
+
    font-family: Raleway;
    font-style: normal;
    font-weight: 700;
@@ -63,11 +55,7 @@ list-style: none;
    font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.02em;
-   position: absolute;
-   width: 49px;
-   height: 16px;
-   left: 453px;
-   top: 32px;
+   
 }
 .link-studio:hover,
 .link-studio:focus{
@@ -79,11 +67,7 @@ color: var(--accent-color);
    font-weight: 500;
    font-size: 14px;
    line-height: 1.14;
-   position: absolute;
-   width: 77px;
-   height: 16px;
-   left: 552px;
-   top: 32px;
+  
 }
 
 .link-portfolio:hover,
@@ -100,11 +84,7 @@ color: var(--accent-color);
    font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.02em;
-   position: absolute;
-   width: 68px;
-   height: 16px;
-   left: 679px;
-   top: 32px;
+   
 
 }
 .link-contact:hover,
@@ -115,11 +95,7 @@ color: var(--accent-color);
 
 .contacts-mail{
    color: var(--primery-text-color);
-   position: absolute;
-   width: 135px;
-   height: 16px;
-   left: 1078px;
-   top: 32px;
+  
    font-family: Roboto;
    font-style: normal;
    font-weight: 500;
@@ -141,11 +117,6 @@ letter-spacing: 0.02em;
 }
 .contacts-tel{
    color: var(--primery-text-color);
-   position: absolute;
-   width: 122px;
-   height: 16px;
-   left: 1263px;
-   top: 32px;
    font-family: Roboto;
    font-style: normal;
    font-weight: 500;
@@ -168,18 +139,9 @@ letter-spacing: 0.02em;
 }
 .button{
     
-width: 128px;
-height: 38px;
-left: 576px;
-top: 174px;
 }
 .button-one{
    text-decoration: none;
-    position: absolute;
-    width: 73px;
-    height: 38px;
-    left: 495px;
-    top: 174px;
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
@@ -202,11 +164,7 @@ top: 174px;
     letter-spacing: 0.03em;
 }
 .button-two{
-    position: absolute;
-    width: 128px;
-    height: 38px;
-    left: 576px;
-    top: 174px;
+   
     background: #F5F4FA;
     border-radius: 4px;
 }
@@ -216,11 +174,6 @@ top: 174px;
     background: #2196F3;
 }
 .web-page{
-    width: 84px;
-height: 26px;
-left: 598px;
-top: 180px;
-
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -231,11 +184,6 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 .button-three{
-    position: absolute;
-    width: 145px;
-    height: 38px;
-    left: 712px;
-    top: 174px;
     background: #F5F4FA;
     border-radius: 4px;
 }
@@ -245,10 +193,7 @@ color: #212121;
     background: #2196F3;
 }
 .apps{
-    width: 101px;
-height: 26px;
-left: 734px;
-top: 180px;
+
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -259,11 +204,7 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 .button-four{
-    position: absolute;
-    width: 103px;
-    height: 38px;
-    left: 865px;
-    top: 174px;
+
     background: #F5F4FA;
     border-radius: 4px;
 }
@@ -273,10 +214,6 @@ color: #212121;
     background: #2196F3;
 }
 .design{
-    width: 59px;
-    height: 26px;
-    left: 887px;
-    top: 180px;
     
     font-family: Roboto;
     font-style: normal;
@@ -288,11 +225,6 @@ color: #212121;
     
 }
 .button-five{
-    position: absolute;
-    width: 130px;
-    height: 38px;
-    left: 976px;
-    top: 174px;
     background: #F5F4FA;
     border-radius: 4px;
 }
@@ -302,10 +234,7 @@ color: #212121;
     background: #2196F3;
 }
 .marketing{
-    width: 86px;
-    height: 26px;
-    left: 998px;
-    top: 180px;
+  
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -318,12 +247,7 @@ color: #212121;
 }
 
 .container-one{
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 262px;
-    
+ 
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
@@ -348,89 +272,43 @@ line-height: 1.9;
 
 }
 .container-two{
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 615px;
-    top: 262px;
-    
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
 }
 .container-three{
-    position: absolute;
-width: 370px;
-height: 404px;
-left: 1015px;
-top: 262px;
-
+ 
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
 }
 .container-four{
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 696px;
-    
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
 }
 .container-five{
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 615px;
-    top: 696px;
-    
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
 }
 .container-six{
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 1015px;
-    top: 696px;
-    
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
 }
 .container-seven{
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 1130px;
-    
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
 }
 .container-eight{
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 615px;
-    top: 1130px;
-    
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
 }
 .container-nine{
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 1015px;
-    top: 1130px;
-    
+
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
@@ -438,20 +316,11 @@ box-sizing: border-box;
 
 .footer-bg{
     background-color: var( --background-color);
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 1590px;
+    
     
     }
     .footer-logo{
         color: var(--accent-color);
-        position: absolute;
-        width: 145px;
-        height: 31px;
-        left: 215px;
-        top: 24px;
         font-family: Raleway;
         font-style: normal;
         font-weight: 700;
@@ -470,17 +339,10 @@ box-sizing: border-box;
     }
     .adress{
     
-        width: 231px;
-        height: 81px;
-        left: 215px;
-        top: 1739px;
     }
     .street{
         color: var(--primary-white-color);
-        width: 231px;
-        height: 21px;
-        left: 215px;
-        top: 2208px;
+       
         font-family: Roboto;
         font-style: normal;
         font-weight: 400;
@@ -489,10 +351,7 @@ box-sizing: border-box;
         letter-spacing: 0.03em;
     }
     .footer-email{
-        width: 231px;
-        height: 21px;
-        left: 215px;
-        top: 2238px;
+      
         font-family: Roboto;
         font-style: normal;
         font-weight: 400;
@@ -503,10 +362,7 @@ box-sizing: border-box;
     }
     .footer-tel{
         color: rgba(255, 255, 255, 0.6);
-        width: 231px;
-        height: 21px;
-        left: 215px;
-        top: 2268px;
+       
         font-family: Roboto;
         font-style: normal;
         font-weight: 400;
