@@ -8,41 +8,43 @@
 
 }
 
- 
 
- ul{
+ul{
     list-style: none;
- }
- a{
+}
+a{
      text-decoration: none;
- }
+}
 
- .body{
+.body{
      font-family: Roboto, sans-serif;
    
- }
- .header{
+}
+
+.header{
+     display: flex;
     background-color: #ffffff;
     font-family: Roboto;
-  
-    }
- .header-logo{
+ 
+}
+
+.header-logo{
     color: var(--accent-color);
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    right: 93px;
-    top: 24px;
-    bottom: 25px;
+   
     font-family: Raleway;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;  
     letter-spacing: 0.03em;
- }
- .logo-part-two{
+
+    margin-left: 215px;
+    margin-top: 24px;
+    margin-right: 93px;
+    margin-bottom: 25px;
+}
+
+.logo-part-two{
      color: #2F303A;
      font-family: Raleway;
     font-style: normal;
@@ -50,9 +52,24 @@
     font-size: 26px;
     line-height: 1.19;  
     letter-spacing: 0.03em;
-    top: 24px;
-    bottom: 25px;
- }
+  
+}
+
+.navigation{
+    display: flex;
+margin-top: 32px;
+margin-bottom: 32px;  
+}
+
+.nav-contacts{
+    display: flex;
+    margin-top: 32px;
+margin-bottom: 32px;
+}
+
+.nav-contacts .li{
+   
+}
 
 .link-studio{
     color: var(--accent-color);
@@ -62,18 +79,23 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    margin-left: 93px;
+    margin-right: 50px;
    
 }
+
 .link-studio:hover,
 .link-studio:focus{
 color: var(--accent-color);
 }
+
  .link-portfolio{
     color: var(--titel-text-color);
     font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    margin-right: 50px;
    
 }
 
@@ -92,26 +114,26 @@ color: var(--accent-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
   
-
 }
+
 .link-contact:hover,
 .link-contact:focus{
     color: var(--accent-color);
 }
 
-
 .contacts-mail{
     color: var(--accent-color);
-  
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    margin-left: 338px;
+    margin-right: 43px;
     
-
 }
+
 .contacts-mail:hover,
 .contacts-mail:focus {
 color:var(--accent-color);
@@ -122,16 +144,19 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
+
 .contacts-tel{
     color: var(--titel-text-color);
-    
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    
 }
+
 .contacts-tel:hover,
 .contacts-tel:focus{
     color:var(--accent-color);
@@ -143,12 +168,12 @@ line-height: 16px;
 letter-spacing: 0.02em;
 }
 
- .hero{
-    background-color: var( --background-color);
+.hero{
+   background-color: var( --background-color);
+   width: 1600px;
+   height: 600px;
    
-
-    
- }
+}
 
 .hero-titel{
     color:  var(--primary-white-color);
@@ -161,39 +186,58 @@ letter-spacing: 0.02em;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     
+    padding-top: 200px;
+    padding-left: 452px;
+    padding-right: 452px;
     
-    padding-bottom: 270px; 
 
 }
 
 .hero-button{
     background-color: var(--accent-color);
-   
-    
     border-radius: 4px;
- }
+    margin-left: 700px;
+}
    
 .button-text{
     color: var(--primary-white-color);
     font-family: Roboto;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 16px; 
     width: 136px;
     height: 30px;
     padding: 10px 32px;
-   text-decoration: none;
+    text-decoration: none;
     display: inline-block;
-    
-    text
-    letter-spacing: 0.06em;
- }
 
- .text{
- 
- }
-.text-one{
+    letter-spacing: 0.06em;
+}
+
+.section-text{
+    margin-top: 115px;
+    margin-bottom: 94px;
+
+}
+
+.container .li{
+    display: flex;
+}
+
+.section-text .li {
    
 }
+
+.text {
+    display: flex;
+   
+}
+
+.text-one{
+    width: 270px;
+margin-left: 215px;
+margin-right: 30px; 
+}
+
 .atention-to-detail{
     color: var(--titel-text-color);
     
@@ -203,8 +247,9 @@ letter-spacing: 0.02em;
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    
 }
+
 .attention-text{
     color: var(--primery-text-color);
 
@@ -215,9 +260,12 @@ letter-spacing: 0.02em;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
+
 .text-two{
-   
+    width: 270px;
+    margin-right: 30px;
 }
+
 .punctuality{
     color: var(--titel-text-color);
    
@@ -227,8 +275,9 @@ letter-spacing: 0.02em;
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+   
 }
+
 .punctuality-text{
     color: var(--primery-text-color);
    
@@ -240,7 +289,8 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
 }
 .text-three{
-   
+    width: 270px;
+    margin-right: 30px;
 }
 .planning{
     color: var(--titel-text-color);
@@ -251,8 +301,9 @@ letter-spacing: 0.02em;
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+   
 }
+
 .planning-text{
     color: var(--primery-text-color);
   
@@ -264,7 +315,8 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
 }
 .text-four{
-    
+    width: 270px;
+    margin-right: 215px;
 }
 .modern-technology{
     color: var(--titel-text-color);
@@ -275,8 +327,9 @@ letter-spacing: 0.02em;
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    
 }
+
 .modern-technology-text{
     color: var(--primery-text-color);
     
@@ -289,12 +342,11 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
 }
 
-.about-us-section{
-   
-
-}
-.about-us-titel{
+.about-us-section {
     
+}
+
+.about-us-titel{
     color: var(--titel-text-color);
    
     font-family: Roboto;
@@ -306,25 +358,23 @@ letter-spacing: 0.02em;
     
 }
 
-.picture-one{
-  
+.about-us {
+    display: flex;
 
-}
-.picture-two{  
-   
+    margin-left: 215px;;
 }
 
-.picture-three{ 
-   
+.picture{
+    margin-right: 30px;
 }
 
 .our-team-section{
-   
     background: #F5F4FA;
+    wight: 1600px;
     
-  
- }
- .our-team-titel{
+}
+
+.our-team-titel{
     color: var(--titel-text-color);
     font-family: Roboto;
     font-weight: 700px;
@@ -332,24 +382,30 @@ letter-spacing: 0.02em;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
- }
- .cards{
+}
 
+.cards{
+display: flex;
 
- }
+}
 
-.portrait-one{ 
-    
+.item{ 
+    margin-left: 215px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+
+.item +.item{ 
+    margin-left: 30px ;
+}
+
 .imagine-one{  
     
     background: url(4853.jpg);
     border-radius: 0px;
 }
-.our-team-name-one{
+.name{
     color: var(--titel-text-color);
     font-family: Roboto;
     font-style: normal;
@@ -359,7 +415,7 @@ letter-spacing: 0.02em;
     text-align: center;
     letter-spacing: 0.03em;
 }
-.our-team-text-one{
+.position{
     color: var(--primery-text-color);
     font-family: Roboto;
     font-style: normal;
@@ -369,135 +425,65 @@ letter-spacing: 0.02em;
     text-align: center;
     letter-spacing: 0.03em;
 }
-.portrait-two{
-    
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
+
 .imagine-two{
 
     background: url(5844.jpg);
     border-radius: 0px;
 }
-.our-team-name-two{
-    color: var(--titel-text-color);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-.our-team-text-two{
-    color: var(--primery-text-color);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-.portrait-three{
 
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
 .imagine-three{
 
     background: url(16166.jpg);
     border-radius: 0px;
 }
-.our-team-name-three{
-    color: var(--titel-text-color);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-.our-team-text-three{
-    color: var(--primery-text-color);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-.portrait-four{
-    
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;  
-}
+
 .imagine-four{
-   
- 
     background: url(2968.jpg);
     border-radius: 0px;
 }
-.our-team-name-four{
-    color: var(--titel-text-color);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-.our-team-text-four{
-    color: var(--primery-text-color);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
-
  
-
-
  .footer-bg{
 background-color: var( --background-color);
 
 
 }
+
 .footer-logo{
     color: var(--accent-color);
+
     font-family: Raleway;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;  
     letter-spacing: 0.03em;
+    
+    padding-left: 215px;
+    padding-top: 60px;
+    padding-right: 1240px;
+    padding-bottom: 20px;
 }
+
 .footer-logo-studio{
     color: var(--primary-white-color);
+
     font-family: Raleway;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-}
-.adress{
-    padding-top: 111;
-    padding-left: 215;
-    padding-bottom: 60;
-    padding-right: 1154;
 
 }
+
+.adress{
+    padding-left: 215px;
+    
+    padding-right: 1154px;
+    padding-bottom: 60px;
+}
+
 .street{
     color: var(--primary-white-color);
     font-family: Roboto;
@@ -507,6 +493,7 @@ background-color: var( --background-color);
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+
 .footer-email{
    
     font-family: Roboto;
@@ -517,6 +504,7 @@ background-color: var( --background-color);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
 .footer-tel{
     color: rgba(255, 255, 255, 0.6);
     font-family: Roboto;

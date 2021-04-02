@@ -21,6 +21,7 @@ list-style: none;
   
 }
 .header{
+    display: flex;
    background-color: #ffffff;
    font-family: Roboto;
    
@@ -35,6 +36,13 @@ list-style: none;
    font-size: 26px;
    line-height: 1.19;  
    letter-spacing: 0.03em;
+
+   margin-left: 215px;
+   margin-top: 32px;
+   margin-right: 93px;
+   margin-bottom: 32px;
+   display: flex;
+
 }
 .logo-part-two{
     color: #2F303A;
@@ -45,7 +53,11 @@ list-style: none;
    line-height: 1.19;  
    letter-spacing: 0.03em;
 }
-
+.navigation{
+   display: flex;
+   margin-top: 32px;
+   margin-bottom: 32px;
+}
 
 .link-studio{
    color: var(--titel-text-color);
@@ -55,6 +67,8 @@ list-style: none;
    font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.02em;
+
+   margin-left: 93px;
    
 }
 .link-studio:hover,
@@ -68,6 +82,7 @@ color: var(--accent-color);
    font-size: 14px;
    line-height: 1.14;
   
+   margin-left: 50px;
 }
 
 .link-portfolio:hover,
@@ -85,13 +100,20 @@ color: var(--accent-color);
    line-height: 1.14;
    letter-spacing: 0.02em;
    
-
+   margin-left:50px;
 }
+
+
 .link-contact:hover,
 .link-contact:focus{
    color: var(--accent-color);
 }
-
+.nav-contacts{
+    display: flex;
+    
+    margin-top: 32px;
+margin-bottom: 32px;
+}
 
 .contacts-mail{
    color: var(--primery-text-color);
@@ -102,6 +124,9 @@ color: var(--accent-color);
    font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.02em;
+
+   margin-left: 331px;
+   margin-right: 50px;
    
 
 }
@@ -123,6 +148,8 @@ letter-spacing: 0.02em;
    font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.02em;
+
+   
 }
 .contacts-tel:hover,
 .contacts-tel:focus{
@@ -138,13 +165,20 @@ letter-spacing: 0.02em;
     background: #E5E5E5;
 }
 .button{
-    
+    margin-left: 495px;
 }
 .button-one{
-   text-decoration: none;
+   
     background: #2196F3;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    
+    padding-left: 22px;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    margin-right: 8px;
+  
+
 }
 .all:hover,
 .all:focus{
@@ -167,6 +201,12 @@ letter-spacing: 0.02em;
    
     background: #F5F4FA;
     border-radius: 4px;
+
+    padding-left: 22px;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    margin-right: 8px;
 }
 .web-page:hover,
 .web-page:focus{
@@ -186,6 +226,13 @@ color: #212121;
 .button-three{
     background: #F5F4FA;
     border-radius: 4px;
+
+    padding-left: 22px;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+
+    margin-right: 8px;
 }
 .apps:hover,
 .apps:focus{
@@ -207,6 +254,12 @@ color: #212121;
 
     background: #F5F4FA;
     border-radius: 4px;
+
+    padding-left: 22px;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    margin-right: 8px;
 }
 .design:hover,
 .design:focus{
@@ -227,6 +280,12 @@ color: #212121;
 .button-five{
     background: #F5F4FA;
     border-radius: 4px;
+    padding-left: 22px;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+
+    margin-right: 8px;
 }
 .marketing:hover,
 .marketing:focus{
@@ -246,11 +305,25 @@ color: #212121;
     
 }
 
+.container.li{
+   
+}
+.container{
+   
+   display: flex;
+   flex-wrap: wrap;
+
+   margin-left: 215px;
+}
+
 .container-one{
  
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 
@@ -275,43 +348,56 @@ line-height: 1.9;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
-}
-.container-three{
+    margin-right: 30px;
+    margin-bottom: 30px;
+} 
+ .container-three{
  
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
+margin-bottom: 30px;
 }
 .container-four{
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 .container-five{
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 .container-six{
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    margin-bottom: 30px;
 }
 .container-seven{
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 .container-eight{
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 .container-nine{
 
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    margin-bottom: 30px;
 }
 
 .footer-bg{
@@ -327,6 +413,11 @@ box-sizing: border-box;
         font-size: 26px;
         line-height: 1.19;  
         letter-spacing: 0.03em;
+
+        padding-left: 215px;
+        padding-top: 60px;
+        padding-right: 1240px;
+        padding-bottom: 20px;
     }
     .footer-logo-studio{
         color: var(--primary-white-color);
@@ -338,7 +429,10 @@ box-sizing: border-box;
         letter-spacing: 0.03em;
     }
     .adress{
+    padding-left: 215px;
     
+    padding-right: 1154px;
+    padding-bottom: 60px;
     }
     .street{
         color: var(--primary-white-color);
