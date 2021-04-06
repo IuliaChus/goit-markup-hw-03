@@ -6,12 +6,14 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
 <link rel="stylesheet" href="/portfolio.html">   
 <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body class="body">
         <!--Шапка -->
+        <div class="header-container"> 
         <header class="header">
 
             <p class="header-logo"> Web<span class="logo-part-two">Studio</span> </p>
@@ -34,20 +36,21 @@
          
      
          </header>
+        </div>
     <!--Герой -->
 <main>
-    
+    <div class="hero-container"> 
         <section class="hero">
             <h1 class="hero-titel">Эффективные решения для вашего бизнеса</h1>
             <button class="hero-button" >
-               <span class="button-text">Заказать услугу</span> 
+               <p class="button-text">Заказать услугу</p> 
             </button> 
         </section>
-
+    </div>
     <!--Секция--> 
-    
+   
         <section class="section-text">
-            <div class="container">
+        <div class="container">     
     <ul class="text">
         <li class="text-one" >
             <h3 class="attention-to-detail"> Внимание к деталям</h3>
@@ -71,6 +74,7 @@
     
   
     <!-- О нас -->
+    <div class="about-us-container"> 
         <section class="aubout-us-section">
             <h2 class="about-us-titel"> Чем мы занимаемся</h2>
             <ul class="about-us">
@@ -79,13 +83,13 @@
             <li class="picture"><img src="img/imgkopie1.jpg" alt="робочій стіл" width="370"  ></li> 
         </ul>
         </section>
-    
+    </div>
 
 
     <!-- Наша команда -->
         <section class="our-team-section">
             <h2 class="our-team-titel">Наша команда</h2>
-
+    <div class="cards-container"> 
             <ul class="cards" >
             <li class="item" > 
                 <img src="img/prt1.jpg" alt="чоловік на фото" width="270" class="imagine-one" >
@@ -108,19 +112,22 @@
                 <p class="position"> UI Designer</p>
             </li>
             </ul>
+        </div>
         </section>  
     
 </main>
     <!-- Подвал -->
     <footer class="footer-bg">
-         <p class="footer-logo">Web<span class="footer-logo-studio" >Studio</span> </p>
+         <div class="footer-container">  
          
-   
+       <p class="footer-logo">Web<span class="footer-logo-studio" >Studio</span> </p>
+     
+        
         <address class="adress"> 
             
             <p class="street">г. Киев, пр-т Леси Украинки, 26 </p> 
-    
-         <ul >
+   
+         <ul>
                 <li>
                     <a class="footer-email" href="mailto:info@example.com">info@example.com</a></li>
                 <li>   
@@ -129,6 +136,7 @@
             </ul>
        
     </address>
+</div>
     </footer>
 
 </body>

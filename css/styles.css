@@ -18,13 +18,20 @@ a{
 
 .body{
      font-family: Roboto, sans-serif;
+     width: 1600px;
    
 }
+.header-container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
 
+}
 .header{
-     display: flex;
+    display: flex;
     background-color: #ffffff;
     font-family: Roboto;
+    width: 1200px;
  
 }
 
@@ -38,10 +45,13 @@ a{
     line-height: 1.19;  
     letter-spacing: 0.03em;
 
-    margin-left: 215px;
-    margin-top: 24px;
-    margin-right: 93px;
-    margin-bottom: 25px;
+    margin: 0%;
+    padding-left: 60px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    
+    
+   
 }
 
 .logo-part-two{
@@ -52,24 +62,24 @@ a{
     font-size: 26px;
     line-height: 1.19;  
     letter-spacing: 0.03em;
+   
   
 }
 
 .navigation{
     display: flex;
 margin-top: 32px;
-margin-bottom: 32px;  
+margin-bottom: 32px; 
+
 }
 
 .nav-contacts{
     display: flex;
     margin-top: 32px;
-margin-bottom: 32px;
-}
-
-.nav-contacts .li{
+margin-bottom: 32px; 
    
 }
+
 
 .link-studio{
     color: var(--accent-color);
@@ -129,8 +139,8 @@ color: var(--accent-color);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    margin-left: 338px;
-    margin-right: 43px;
+    padding-left: 200px;
+    padding-right: 25px;
     
 }
 
@@ -146,6 +156,8 @@ letter-spacing: 0.02em;
 }
 
 .contacts-tel{
+
+    
     color: var(--titel-text-color);
     font-family: Roboto;
     font-style: normal;
@@ -153,6 +165,7 @@ letter-spacing: 0.02em;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+   
 
     
 }
@@ -168,6 +181,10 @@ line-height: 16px;
 letter-spacing: 0.02em;
 }
 
+
+.hero-container{
+    /* width: 1600px; */
+}
 .hero{
    background-color: var( --background-color);
    width: 1600px;
@@ -189,6 +206,7 @@ letter-spacing: 0.02em;
     padding-top: 200px;
     padding-left: 452px;
     padding-right: 452px;
+    margin: 0%;
     
 
 }
@@ -197,22 +215,28 @@ letter-spacing: 0.02em;
     background-color: var(--accent-color);
     border-radius: 4px;
     margin-left: 700px;
+    margin-top: 30px;
+    margin-right: 700px;
+    margin-bottom: 200px;
+   
+
+    text-align: center;
 }
    
 .button-text{
+    text-align: center;
     color: var(--primary-white-color);
     font-family: Roboto;
     font-weight: 700;
     font-size: 16px; 
-    width: 136px;
-    height: 30px;
-    padding: 10px 32px;
-    text-decoration: none;
-    display: inline-block;
-
+     
     letter-spacing: 0.06em;
+    padding: 10, 32;
 }
 
+.container{
+   
+}
 .section-text{
     margin-top: 115px;
     margin-bottom: 94px;
@@ -341,9 +365,16 @@ margin-right: 30px;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
-
+.about-us-container{
+    width: 1170px;
+    height: 386px;
+    vertical-align: middle;
+   
+    margin-left: auto;
+    margin-right: auto;
+}
 .about-us-section {
-    
+    width: 1170px ;
 }
 
 .about-us-titel{
@@ -355,13 +386,16 @@ margin-right: 30px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+   
+    
+    margin-bottom: 50px;
     
 }
 
 .about-us {
     display: flex;
 
-    margin-left: 215px;;
+    margin-left: auto;
 }
 
 .picture{
@@ -371,6 +405,8 @@ margin-right: 30px;
 .our-team-section{
     background: #F5F4FA;
     wight: 1600px;
+    height: 648px;
+    margin-top: 94px;
     
 }
 
@@ -382,14 +418,22 @@ margin-right: 30px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
-
+.cards-container{
+    width: 1170px;
+    height: 368px;
+    margin-right: 215px;
+  
+}
 .cards{
 display: flex;
 
 }
 
 .item{ 
+    margin-bottom: 94px;
     margin-left: 215px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -458,7 +502,7 @@ background-color: var( --background-color);
     font-size: 26px;
     line-height: 1.19;  
     letter-spacing: 0.03em;
-    
+    margin: 0%;
     padding-left: 215px;
     padding-top: 60px;
     padding-right: 1240px;
@@ -477,13 +521,15 @@ background-color: var( --background-color);
 
 }
 
-.adress{
-    padding-left: 215px;
-    
-    padding-right: 1154px;
-    padding-bottom: 60px;
-}
 
+.footer-container{
+ width: 1600px;
+ margin: 0, auto;
+ padding: 15px 15px;
+}
+.adress{
+   
+}
 .street{
     color: var(--primary-white-color);
     font-family: Roboto;
@@ -492,10 +538,12 @@ background-color: var( --background-color);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+
+    padding-left: 215px;
 }
 
 .footer-email{
-   
+   padding-left: 175px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
@@ -506,6 +554,7 @@ background-color: var( --background-color);
 }
 
 .footer-tel{
+    padding-left: 175px;
     color: rgba(255, 255, 255, 0.6);
     font-family: Roboto;
     font-style: normal;
