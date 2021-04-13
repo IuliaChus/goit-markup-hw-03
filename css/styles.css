@@ -39,7 +39,7 @@ margin-right: auto;
 
 .container{
 width: 1200px;
-padding: 15px 15px;
+padding: 0px 15px;
 margin: 0 auto;
   
 }
@@ -188,11 +188,11 @@ letter-spacing: 0.02em;
 .hero{
 background-color: var( --background-color);
 text-align: center;
+padding-top: 200px;
+padding-bottom: 200px;
 }
-.container .hero{
 
 
-}
 .hero-titel{
 color:  var(--primary-white-color);
 font-family: Roboto;
@@ -204,7 +204,6 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 width: 696px; 
-padding-top: 200px; 
 padding-bottom: 30px;
 margin: 0 auto;
 
@@ -214,9 +213,15 @@ margin: 0 auto;
 .hero-button{
 background-color: var(--accent-color);
 border-radius: 4px;
-
-margin-bottom:200px;
-
+padding-top: 10px;
+padding-right: 32px;
+padding-bottom: 10px;
+padding-left: 32px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
 }
    
 .button-text{
@@ -224,12 +229,10 @@ display: inline-block;
 text-align: center;
 text-decoration: none;
 color: var(--primary-white-color);
-font-family: Roboto;
-font-weight: 700;
-font-size: 16px; 
- 
+
+margin: 0;
 letter-spacing: 0.06em;
-padding: 10, 32;
+
     
 }
 
@@ -256,6 +259,7 @@ font-weight: 700;
 font-size: 14px;
 line-height: 1.4;
 letter-spacing: 0.03em; 
+margin-top: 0;
 }
 
 .text-item{
@@ -266,6 +270,8 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
+
+margin-top: 0;
 
 }
 .text-post{
@@ -283,29 +289,29 @@ text-align: center;
 padding-bottom: 94px;
 width: 1170px;
 }
+.container-about-us{
+padding-bottom: 94px;
+}
 
 .about-us-titel{
-    color: var(--titel-text-color);
+color: var(--titel-text-color);
+
+font-family: Roboto;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
    
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-   
-    margin: 0% auto;
-    padding-bottom: 50px;
+margin: 0% auto;
+padding-bottom: 50px;
     
 }
 
-.about-us {
-   
+.about-us { 
 width: 1250px;
 display: flex;
 margin: 0 auto;
-padding-bottom: 94px;
-
 }
 
 .picture{
@@ -315,10 +321,11 @@ margin-right: 30px;
 margin-right: 0;
 }
 
+
 .our-team-section{
 background: #F5F4FA;
 padding-top: 94px;
-padding-bottom: 50px;
+padding-bottom: 94px;
 }
 
 .our-team-titel{
@@ -345,7 +352,7 @@ padding-right: 0;
 
 .item{ 
 margin-right: 30px;
-margin-bottom: 94px;  
+ 
 background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
@@ -399,7 +406,8 @@ border-radius: 0px 0px 4px 4px;
 /* FOOTER */
 .footer-bg{
 background-color: var( --background-color);
-
+padding-top: 60px;
+padding-bottom: 60px;
 }
 
 .footer-logo{
@@ -412,9 +420,8 @@ font-size: 26px;
 line-height: 1.19;  
 letter-spacing: 0.03em;
 margin: 0%;
-  
-padding-top: 60px;
-padding-bottom: 20px;
+padding-bottom: 20px; 
+
     
 }
 
@@ -451,7 +458,7 @@ margin: 0;
 padding: 0;
 }
 .footer-item{
-margin-bottom: 9px;
+padding-bottom: 9px;
 }
 .footer-email{
 color: rgba(255, 255, 255, 0.6);   
@@ -461,7 +468,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-margin-bottom: 9px;
+padding-bottom: 9px;
 
 }
 

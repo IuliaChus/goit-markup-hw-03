@@ -25,7 +25,7 @@ font-family: Roboto, sans-serif;
 display: flex;
 background-color: #ffffff;
 font-family: Roboto;
-
+border-bottom: 1px solid #ECECEC;
 }
 .header-container{
 
@@ -35,16 +35,16 @@ font-family: Roboto;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;  
+   
 }
 
-
-
 .container{
-width: 1230px;
-padding: 15px 15px;
+width: 1200px;
+padding: 0px 15px;
 margin: 0 auto;
       
 }
+
 
 .header-logo{
     color: var(--accent-color);
@@ -186,18 +186,19 @@ letter-spacing: 0.02em;
 
 
 .main{
-width: 1230px;
+
 align-items: center;
 padding-left: 15px;
 padding-right: 15px;
-margin-top: 89px;
+padding-top: 89px;
 margin-left: auto;
 margin-right: auto;
 }
 .container-button{
-width: 1230px;
+width: 1200px;
 padding-bottom: 50px;
 align-items: center;
+margin: auto;
 
 }
 .button{
@@ -313,10 +314,11 @@ letter-spacing: 0.03em;
 
 
 .container-item{
-   
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+margin-right: -30px;
+padding: 0;
 
 }
 .box{
@@ -325,13 +327,20 @@ border: 1px solid #EEEEEE;
 box-sizing: border-box;
         
 margin-right: 30px;
-margin-bottom: 30px;  
+margin-bottom: 30px; 
+width: 370px; 
 }
 
 .box:nth-child(3n){
 margin-right: 0;
 }
+.text-in-box{
+padding-left: 24px;
+padding-top: 20px;
+padding-right: 24px;
+padding-bottom: 20px;
 
+}
 
 .text{
 color: var(--titel-text-color);
@@ -340,7 +349,8 @@ font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
-padding-left: 24px;
+margin: 0;
+
 }
 .paragraph{
 color: var(--primery-text-color);
@@ -349,13 +359,15 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.9;
-padding-left: 24px;
+margin: 0;
+
 }
 
 
 .footer-bg{
 background-color: var( --background-color);
-    
+padding-top: 60px;
+padding-bottom: 60px;  
     
 }
     
@@ -369,7 +381,6 @@ font-size: 26px;
 line-height: 1.19;  
 letter-spacing: 0.03em;
 margin: 0%;
-padding-top: 60px;
 padding-bottom: 20px;
 }
     
@@ -398,33 +409,34 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-    
-        
+margin: 0;        
 }
+
 .footer-item{
-    margin-bottom: 9px;
-    }
+margin-bottom: 9px;
+}
+
 .contacts{
 padding: 0;
 }
+
 .footer-email{     
-    color: rgba(255, 255, 255, 0.6);   
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    margin-bottom: 9px;
+color: rgba(255, 255, 255, 0.6);   
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+padding-bottom: 9px;
 }
     
 .footer-tel{
-    color: rgba(255, 255, 255, 0.6);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    
-    }
+color: rgba(255, 255, 255, 0.6);
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;    
+}
