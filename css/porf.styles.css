@@ -18,7 +18,7 @@ list-style: none;
 
 .body{
 font-family: Roboto, sans-serif;
-
+margin: 0;
     
 }
 .header{
@@ -186,30 +186,27 @@ letter-spacing: 0.02em;
 
 
 .main{
-
 align-items: center;
-padding-left: 15px;
-padding-right: 15px;
 padding-top: 89px;
-margin-left: auto;
 margin-right: auto;
 }
+
 .container-button{
 width: 1200px;
 padding-bottom: 50px;
 align-items: center;
 margin: auto;
-
+padding: 0 15px;
+box-sizing: border-box;
 }
+
+
 .button{
 display: flex;
 justify-content: center;
-align-items: center;
-padding-left: 15px;
-padding-right: 15px;
-margin-left: auto;
-margin-right: auto;
+padding: 0px;
 margin-bottom: 50px;
+
 }
 
 .button-main{
@@ -317,8 +314,8 @@ letter-spacing: 0.03em;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-margin-right: -30px;
-padding: 0;
+margin: 0px;
+padding: 0px;
 
 }
 .box{
@@ -380,8 +377,8 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;  
 letter-spacing: 0.03em;
-margin: 0%;
-padding-bottom: 20px;
+
+margin-bottom: 20px;
 }
     
 .footer-logo-studio{
@@ -396,11 +393,10 @@ padding-bottom: 20px;
     
 }
     
-    
-
 .adress{
 display: block;      
 }
+
 .street{
 color: var(--primary-white-color);
 font-family: Roboto;
@@ -409,7 +405,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-margin: 0;        
+margin-bottom: 9px;       
 }
 
 .footer-item{

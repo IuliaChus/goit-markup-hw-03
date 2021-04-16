@@ -17,10 +17,9 @@ a{
 }
 
 .body{
-font-family: Roboto, sans-serif;
-
-   
+font-family: Roboto, sans-serif;  
 }
+
 .header{
 display: flex;
 background-color: #ffffff;
@@ -288,30 +287,29 @@ margin-right: 0;
 text-align: center;
 padding-bottom: 94px;
 width: 1170px;
+margin: 0 auto;
 }
 .container-about-us{
-padding-bottom: 94px;
+
 }
 
 .about-us-titel{
 color: var(--titel-text-color);
-
 font-family: Roboto;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
-letter-spacing: 0.03em;
-   
+letter-spacing: 0.03em; 
 margin: 0% auto;
-padding-bottom: 50px;
-    
+padding-bottom: 50px;   
 }
 
-.about-us { 
-width: 1250px;
+.about-us {
+    text-align: center; 
 display: flex;
 margin: 0 auto;
+padding: 0px;
 }
 
 .picture{
@@ -326,6 +324,7 @@ margin-right: 0;
 background: #F5F4FA;
 padding-top: 94px;
 padding-bottom: 94px;
+margin: auto;
 }
 
 .our-team-titel{
@@ -344,9 +343,9 @@ padding-bottom: 50px;
 
 .cards{
 display: flex;
-width: 1250px;
 margin: 0 auto;
-padding-right: 0;
+padding: 0px;
+width: 1170px;
 
 }
 
@@ -419,8 +418,8 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;  
 letter-spacing: 0.03em;
-margin: 0%;
-padding-bottom: 20px; 
+
+margin-bottom: 20px; 
 
     
 }
@@ -451,14 +450,15 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-margin: 0;
 
+margin-bottom: 9px;
 }
 .contacts{
 padding: 0;
+margin: 0px;
 }
 .footer-item{
-padding-bottom: 9px;
+margin-bottom: 9px;
 }
 .footer-email{
 color: rgba(255, 255, 255, 0.6);   
